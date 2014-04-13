@@ -1,4 +1,4 @@
 server-scripts
 ==============
 
-A collection of useful  scripts for server management.
+A collection of useful  scripts for various servers.
