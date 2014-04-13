@@ -1,0 +1,35 @@
+{
+	"packageFolder" : "/path/to/server/packages/folder",
+	"packages" : [
+		{
+			"path" : "/path/to/project/folder",
+			"projectName" : "Name of your project",
+			"title" : "Title of your project,
+			"author" : "Title of your project",
+			"version" : "1.0.0",
+			"licenseUrl" : "https://domain/project/license",
+			"projectUrl" : "https://domain/project",
+			"iconUrl" : "http://domain/project/icon,
+			"description" : "Describe your project",
+			"releaseNotes" : "Describe what the version is about.",
+			"tags" : "tag1, tag2, tag3",
+			"copyright" : "Copyright 2014 Your Name",
+			"dependencies" : [
+				{
+					"id" : "Newtonsoft.Json",
+					"version" : "6.0.0"
+				},				
+				{
+					"id" : "RestSharp",
+					"version" : "104.4.0"
+				}
+			],
+			"files" : [
+				{
+					"source" : "path/to/librar/dll",
+					"destination" : "lib\\net45"
+				}
+			]
+		}
+	]
+}
