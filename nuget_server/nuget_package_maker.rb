@@ -1,10 +1,9 @@
 =begin
 	The scripts reads a JSON file (nuget_package_settings.json) which contains the specifications
-	for your nuget packages and provides a path to to the server folder where the nuget packages are kept.
-	
-	By running this script, all packages defined in the JSON file will be regenerated and moved
-	to the server folder where you would normally keep your nuget packages.
+	for and is able to regenerate all your specified packages. The generated packages can be moved
+	to a server folder (the nuget server packages folder).
 =end
+
 require 'fileutils'
 require 'json'
 
